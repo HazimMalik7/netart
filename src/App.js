@@ -24,19 +24,19 @@ function HeroSection() {
         </div>
         <div className="description col-sm-8">
           <div style={{ width: "100%" }}>
-            <b className="px-2">
+            <b className="px-2 descriptionHeading">
               {" "}
               C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
               the 4th time.{" "}
             </b>
             <div className="px-3">
               <ul>
-                <li>
+                <li className="text-justify">
                   C.R.I.'s energy efficient products are well recognized by
                   various Government Institutions, as trustworthy products for
                   various projects across the globe to save energy.
                 </li>
-                <li>
+                <li className="text-justify">
                   C.R.I. is the highest contributor in the country for the
                   projects of EESL (Energy Efficiency Services Limited) to
                   replace the old inefficient pumps with 5 Star rated energy
@@ -49,7 +49,7 @@ function HeroSection() {
               alt="persons"
               style={{ width: "98%" }}
             />
-            <p style={{ width: "98%"}}>
+            <p style={{ width: "98%"}} className="text-justify">
               Government of India has awarded the{" "}
               <b>"National Energy Conservation Award 2018"</b>. Mr. G. Selvaraj,
               Joint Managing Director of C.R.I. Group received the award from
@@ -67,7 +67,7 @@ function MiddleSection() {
   return (
     <div className="middleSection">
       <p className="p-2">
-        <b>
+        <b className="text-justify">
           INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF
           POWER FOR THE NATION.
@@ -91,7 +91,7 @@ function Footer() {
     <div className="footer">
       <b>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</b>
       <br />
-      <p>
+      <p >
         CHEMICALS & PROCESS <b style={{ color: "red" }}>|</b> POWER{" "}
         <b style={{ color: "red" }}>|</b> WATER & WASTE WATER{" "}
         <b style={{ color: "red" }}>|</b> OILS & GAS{" "}
@@ -101,7 +101,7 @@ function Footer() {
         <b style={{ color: "red" }}>|</b> MARINE & DEFENCE{" "}
         <b style={{ color: "red" }}>|</b> METAL & MINING{" "}
         <b style={{ color: "red" }}>|</b> FOOD & BEVERAGE{" "}
-        <b style={{ color: "red" }}>|</b> <br />
+        <b style={{ color: "red" }}>|</b>
         PETROCHEMICAL & REFINERIES <b style={{ color: "red" }}>|</b> SOLAR{" "}
         <b style={{ color: "red" }}>|</b> BUILDING{" "}
         <b style={{ color: "red" }}>|</b> HVAC <b style={{ color: "red" }}>|</b>{" "}
